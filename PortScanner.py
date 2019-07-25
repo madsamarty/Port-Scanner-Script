@@ -1,7 +1,7 @@
 import socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-target = raw_input("[+] Enter Target IP: ")
+target = input("[+] Enter Target IP: ")
 
 def scanner (port):
     try:
